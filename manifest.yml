@@ -1,0 +1,6 @@
+applications:
+- name: bluemix-todo-python-mongo
+  memory: 256M
+  command: python mongo-app.py
+  services:
+  - todo-mongo-db
